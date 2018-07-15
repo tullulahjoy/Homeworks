@@ -28,7 +28,7 @@ months_to_save = 0
 current_savings = 0
 answer = (str(input("Are you using a savings scheme with a 25% Government bonus?")))
 if answer in ['n','no','N','No']:
-  [print("Ah, nevermind then.")]
+  print("Ah, nevermind then.")
 elif answer in ['y', 'Y', 'yes', 'Yes', 'YES']:
   while current_savings < (deposit*0.75):
     current_savings += portion_saved+savings_return
